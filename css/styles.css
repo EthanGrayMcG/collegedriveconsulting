@@ -29,6 +29,48 @@ Colors:
 - Body text - dark gray #5e6576
 ******************************************/
 
+/*******************/
+/*     Contact     */
+/*******************/
+.form-1 {
+	position: relative;
+	overflow: hidden;
+	padding-top: 9.5rem;
+	padding-bottom: 8.75rem;
+	text-align: center;
+}
+
+.form-1 .decoration-star {
+	position: absolute;
+	top: 600px;
+	left: -100px;
+	width: 200px;
+	opacity: 0.7;
+}
+
+.form-1 .decoration-star-2 {
+	position: absolute;
+	top: 600px;
+	right: -100px;
+	width: 200px;
+	opacity: 0.7;
+}
+
+.form-1 div[class*="col"] {  
+	/* selects all elements which have classes starting with col */
+	/* needed so that the absolute positioned decoration stays behind */
+	position: relative;
+}
+
+.form-1 .image-container {
+	margin-bottom: 5rem;
+}
+
+.form-1 h2 {
+	margin-bottom: 2.5rem;
+}
+
+
 
 /**************************/
 /*     General Styles     */
