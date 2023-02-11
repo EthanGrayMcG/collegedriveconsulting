@@ -316,6 +316,7 @@ a:hover {
 	background-size: 16px 16px;
 }
 
+  
 /* Fade Animation For Rotating Text - ReplaceMe  */
 @-webkit-keyframes fadeIn {
 	from {
@@ -511,7 +512,7 @@ a:hover {
 /*****************/
 .header {
 	padding-top: 10rem;
-	padding-bottom: 8.5rem;
+	padding-bottom: 100rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
