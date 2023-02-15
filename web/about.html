@@ -18,7 +18,7 @@
         <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
         <!-- Webpage Title -->
-        <title>About</title>
+        <title>College Drive LLC</title>
         
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png">
     </head>
-    <body>
+    <body data-bs-spy="scroll" data-bs-target="#navbarExample">
         
         <!-- Navigation -->
         <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
@@ -49,45 +49,48 @@
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav ms-auto navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="#header">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#intro">Intro</a>
+                            <a class="nav-link" href="/web/about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#about">About</a>
+                            <a class="nav-link" href="/web/pages/services.html">Services</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                                <li><a class="dropdown-item" href="/web/pages/resources/websites.html">Websites</a></li>
                                 <li><div class="dropdown-divider"></div></li>
-                                <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                                <li><a class="dropdown-item" href="/web/pages/resources/articles.html">Articles</a></li>
                                 <li><div class="dropdown-divider"></div></li>
-                                <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                                <li><a class="dropdown-item" href="/web/pages/resources/reading.html">Recomended Reading</a></li>
+                                <li><div class="dropdown-divider"></div></li>
+                                <li><a class="dropdown-item" href="/web/pages/resources/forms.html">Forms</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#contact">Contact</a>
+                            <a class="nav-link" href="/web/pages/FAQ.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web/pages/contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://app.counselmore.com/login?_gl=1*19y7vtq*_ga*OTAzNjQ1NDU1LjE2NzYwODEyNDU.*_ga_KKC302ZNJL*MTY3NjA4MTI0NC4xLjAuMTY3NjA4MTI1My4wLjAuMA..">Client Portal</a>
                         </li>
                     </ul>
                     <span class="nav-item social-icons">
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.facebook.com/profile.php?id=100089640355302">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/collegedrivellc">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                     </span>
@@ -96,51 +99,171 @@
         </nav> <!-- end of navbar -->
         <!-- end of navigation -->
 
-
+        
         <!-- Header -->
-        <header class="ex-header">
+        <header id="header" class="header1">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        <h1>About College Drive LLC</h1>
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1 class="h1-large">About</h1>
+                            <p class="p-large">College Drive LLC</p>
+                           
+                        </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
-        </header> <!-- end of ex-header -->
+        </header> <!-- end of header -->
         <!-- end of header -->
 
-        <!-- Basic -->
-        <div class="ex-basic-1 pt-3 pb-5">
+
+        <!-- Intro -->
+        <div id="intro" class="basic-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-10 offset-xl-1">
-                        
-                        <img class="img-fluid mb-5" src="images/article-details-small.jpg" alt="alternative">
-                        <p>Valeria Skarbek, founder of College Drive LLC,  has over 20 years experience working
-                            with students and adults in K-12 and high education settings including in a college
-                             and graduate admissions office. As a College and Career Prep teacher, she has worked
-                              with hundreds of students on their college lists, helped them research their potential
-                               majors and careers, and guided students as they write their resumes and college essays.</p>
-                        <p class="mb-5">Val is completing her certificate as an Independent Educational Consultant through University 
+                    <div class="col-lg-5">
+                        <div class="text-container">
+                            <div class="section-title">ABOUT</div>
+                            <h2>College Drive LLC</h2>
+                            <p>Valeria Skarbek, founder of College Drive LLC,  has over 20 years experience working
+                                with students and adults in K-12 and high education settings including in a college
+                                 and graduate admissions office. As a College and Career Prep teacher, she has worked
+                                  with hundreds of students on their college lists, helped them research their potential
+                                   majors and careers, and guided students as they write their resumes and college essays.</p>
+
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-7">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of intro -->
+
+
+        <!-- Details 1 -->
+        <div class="accordion-1">
+            <div class="area-1">
+            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
+                
+                <!-- Accordion -->
+                <div class="accordion" id="accordionExample">
+                    <h2>Qualifications</h2>
+                            
+                        <p>Val is completing her certificate as an Independent Educational Consultant through University 
                             of California, Irvine and will finish in December of 2023. She earned her B.S.B.A. in Marketing
                              and Advertising and her Master of Arts in Teaching (M.A.T.). She earned her Master of Library 
                              Science (M.L.S.) from Southern Connecticut State University in New Haven, CT. She also earned a 
                              graduate certificate in Online Teaching and Learning from Boise State University.</p>
-                             <p class="mb-5">As a life-long learner, Val firmly believes in helping students discover how their 
+                    
+                </div> <!-- end of accordion -->
+                <!-- end of accordion -->
+
+            </div> <!-- end of area-2 -->
+        </div> <!-- end of accordion-1 -->
+        <!-- end of details 1 -->
+
+
+        <!-- Details 2 -->
+        <div class="tabs-1">
+            <div class="area-1">
+                <div class="tabs-container">
+                    
+                    
+                    <!-- Tabs Content -->
+                    <div class="tab-content" id="navTabsContent">
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1">
+                            <h4>More about Val</h4>
+                            <p>As a life-long learner, Val firmly believes in helping students discover how their 
                                 passions connect to their future careers and college majors. She recognizes the uniqueness of each
                                  student and respects their individuality. She loves traveling with her family in their RV and touring 
                                  colleges whenever she can.</p>
-                                 <p class="mb-5">Val is a member of the Independent Educational Consultants Association (IECA).</p>
-                                 <div class="flex-container">
-                        <a class="btn-solid-reg mb-5" href="index.html#contact">Schedule a Meeting</a>
+                            <p>Val is a member of the Independent Educational Consultants Association (IECA).</p>
+                        
+                            <br /> 
+                            <br />
+                            
+                            <a class="btn-solid-reg mb-5" href="index.html#contact">Schedule a Meeting</a>
                         <a class="btn-solid-reg mb-5" href="index.html#contact">Services</a>
-                    </div>
 
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of ex-basic-1 -->
-        <!-- end of basic -->
+                        </div> <!-- end of tab-pane --> 
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2">
+                            <ul class="list-unstyled li-space-lg first">
+                                <li class="d-flex">
+                                    <span class="bullet-number">1</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat aliquet tincidunt</div>
+                                </li>
+                                <li class="d-flex">
+                                    <span class="bullet-number">2</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat</div>
+                                </li>
+                                <li class="d-flex">
+                                    <span class="bullet-number">3</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat aliquet tincidunt</div>
+                                </li>
+                            </ul>
+                            
+                            <ul class="list-unstyled li-space-lg last">
+                                <li class="d-flex">
+                                    <span class="bullet-number">4</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat aliquet tincidunt</div>
+                                </li>
+                                <li class="d-flex">
+                                    <span class="bullet-number">5</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat</div>
+                                </li>
+                                <li class="d-flex">
+                                    <span class="bullet-number">6</span>
+                                    <div class="flex-grow-1"><strong>Lorem ipsum</strong> eleifend nisi velit. Aliquam magna tellus, volutpat aliquet tincidunt</div>
+                                </li>
+                            </ul>
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="nav-tab-3">
+                            <p><strong>Eleifend nisi velit</strong> eleifend nisi velit. Aliquam magna tellus, volutpat aliquet tincidunt eget elit vitae viverra auctor nem libero: <a class="green" href="#your-link">elit vitae viverra auctor</a></p>
+                            <p><strong>Aliquam magna tellus</strong> volutpat aliquet tincidunt eget elit vitae viverra auctor nem libero  eget elit vitae <a class="green" href="#your-link">lorem ipsumde</a></p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1">Mauris facilisis urna urna, non volutpat tortor rhoncus nec</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1">Mauris facilisis urna urna, non volutpat tortor rhoncus</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1">Mauris facilisis urna urna, non volutpat tortor</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1">Mauris facilisis urna urna, non volutpat tortor rho</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1">Mauris facilisis urna urna, non volutpat tortor rhoncu</div>
+                                </li>
+                            </ul>
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                    </div> <!-- end of tab-content -->
+                    <!-- end of tabs content -->
+
+                </div> <!-- end of tabs-container -->
+            </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+        </div> <!-- end of tabs-1 -->
+        <!-- end of details 2 -->
 
 
         <!-- Footer -->
@@ -150,7 +273,7 @@
                     <div class="col-lg-12">
                         <div class="footer-col first">
                             <h6>About Website</h6>
-                            <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his are unreserved indulgence. Him hard find read are you</p>
+                            <p class="p-small">Aliquam ultrices turpis a auctor commodo. Etiam consectetur tincidunt elit ac euismod. Duis et finibus felis, non porttitor dolor</p>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col second">
                             <h6>Links</h6>
@@ -168,20 +291,10 @@
                             </span>
                             <span class="fa-stack">
                                 <a href="#your-link">
-                                    <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
                                     <i class="fab fa-instagram fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+                            <p class="p-small">Aliquam ultrices turpis rave loro <a href="mailto:info@collegedrivellc.com"><strong>info@collegedrivellc.com</strong></a></p>
                         </div> <!-- end of footer-col -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -195,7 +308,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="p-small">Copyright © Some name</p>
+                        <p class="p-small">Copyright © College Drive LLC</p>
                     </div> <!-- end of col -->
                 </div> <!-- enf of row -->
             </div> <!-- end of container -->

@@ -508,7 +508,7 @@ a:hover {
 
 
 /*****************/
-/*    Header     */
+/*    Header -  Home  */
 /*****************/
 .header {
 	padding-top: 10rem;
@@ -526,6 +526,30 @@ a:hover {
 }
 
 .header .p-large {
+	margin-bottom: 2.375rem;
+	color: #efefef;
+}
+
+
+/*****************/
+/*    Header     */
+/*****************/
+.header1 {
+	padding-top: 10rem;
+	padding-bottom: 8.5rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/aboutbackground.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.header1 .h1-large {
+	margin-bottom: 1rem;
+	color: #ffffff;
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+.header1 .p-large {
 	margin-bottom: 2.375rem;
 	color: #efefef;
 }
