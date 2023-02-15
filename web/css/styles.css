@@ -532,7 +532,7 @@ a:hover {
 
 
 /*****************/
-/*    Header     */
+/*    Header   About  */
 /*****************/
 .header1 {
 	padding-top: 10rem;
@@ -554,6 +554,29 @@ a:hover {
 	color: #efefef;
 }
 
+
+/*****************/
+/*    Header   services  */
+/*****************/
+.header2 {
+	padding-top: 10rem;
+	padding-bottom: 8.5rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/servicesbackground.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.header2 .h1-large {
+	margin-bottom: 1rem;
+	color: #ffffff;
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+.header2 .p-large {
+	margin-bottom: 2.375rem;
+	color: #efefef;
+}
 
 /*****************/
 /*     Intro     */
