@@ -603,7 +603,28 @@ a:hover {
 	color: #efefef;
 }
 
+/*****************/
+/*    Header   articles  */
+/*****************/
+.header3 {
+	padding-top: 10rem;
+	padding-bottom: 8.5rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/articlesbackground.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
 
+.header3 .h1-large {
+	margin-bottom: 1rem;
+	color: #ffffff;
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+.header3 .p-large {
+	margin-bottom: 2.375rem;
+	color: #efefef;
+}
 
 /*****************/
 /*     Intro     */
