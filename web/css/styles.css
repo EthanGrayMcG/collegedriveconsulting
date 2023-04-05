@@ -910,7 +910,7 @@ a:hover {
 /*********************/
 .accordion-1 .area-1 {
 	height: 440px;
-	background: url('../images/skarbekpic1.jpg') center center no-repeat;
+	background: url('../images/aboutpic2.JPG') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1104,10 +1104,15 @@ a:hover {
 
 .tabs-1 .area-2 {
 	height: 432px;
-	background: url('../images/skarbekpic1.jpg') center center no-repeat;
+	background: url('../images/aboutpic1.jpg') center center no-repeat;
 	background-size: cover;
 }
 
+.tabs-1 .area-3 {
+	height: 432px;
+	background: url('../images/aboutpic3.JPG') center center no-repeat;
+	background-size: cover;
+}
 
 /************************/
 /*     Testimonials     */
